@@ -1,0 +1,91 @@
+@font-face{
+    font-family: Gidole-Regular;
+    src: url(Gidole-Regular.otf);
+}
+
+body{
+    font-family: Gidole-Regular;
+    background-color: black;
+    margin: 0;
+}
+
+h1{
+    text-align: center;
+    display: inline;
+    color: white; 
+    font-size: 100px;
+    margin: 0 auto;
+}
+
+h2{
+    text-align: center;
+    color: white; 
+    font-size: 50px;
+    margin: 0 auto;
+}
+
+h3{
+    text-align: center;
+    display: block;
+    color: white; 
+    font-size: 40px;
+    margin: 5px;
+}
+
+#header{
+    width: 450px;
+    padding: 15px;
+    border: 10px solid white;
+    margin: 0 auto;
+}
+
+#blurb {
+    margin: 0 auto;
+    width: 90%;
+}
+
+#qr {
+    width: 60%;
+}
+
+.highlight{
+    background-color: #737373;
+}
+
+.mobilewidth{
+    width: 75%;
+}
+
+#footer {
+    line-height: 40px;
+    margin-bottom: 20px;
+}
+
+
+.footer-content {
+    text-align: center;
+    display: block;
+    vertical-align: middle;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+@media (min-width: 768px) {
+    #qr{
+        width: 30%;
+    }
+    #googleplay{
+        max-width: 30%;
+    }
+
+}
+
+@media (min-width: 1024px) {
+    #qr{
+        width: 20%;
+    }
+
+}
