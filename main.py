@@ -1,22 +1,3 @@
-'''
-USAGE:
-    run app: python main.py
-    send a text message to +15186590134
-
-    message options:
-    #help: help command
-    #votes: view the current vote counts
-    #top: view the current top voted song
-    #start: restart the server
-    #stop: stop the server, clear playlist and vote queue
-    #clear: clear playlist
-    #kill: exit main loop, delete playlist, stop server (REQUIRES MANUAL REBOOT)
-    query: any other query will be processed by google music as a song/artist/album search
-'''
-
-#TODO: change time.sleep to a condition/wait() so that if the server is stopped and restarted, the thread can be woken - timerThread
-#TODO: fix bug where failing to delete an undelivered message leads to the message being processed twice - filterMessages()
-
 from gmusicapi import Mobileclient
 from twilio.rest import Client
 from classes import Song, Message
