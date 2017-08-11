@@ -67,7 +67,7 @@ def createPlaylist():
     #playlistID = api.create_playlist(PLAYLISTNAME, 'none', True)
     isPlaylistCreated = True
 
-    playlistID = "b3433432-e990-48cf-ace7-3dd9500b5e64"
+    playlistID = "" #Google playlist ID
 
 
 #delete the playlist
